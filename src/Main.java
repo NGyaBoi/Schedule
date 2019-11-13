@@ -3,7 +3,7 @@
  * Section:			IST 140.001
  * Assignment:		Final Project
  * Date: 			Dec 10th 2019
- * Description:		[empty]
+ * Description:		(empty)
  */
 
 public class Main 
