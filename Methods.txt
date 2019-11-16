@@ -1,0 +1,9 @@
+Neel: GetName, GetTimeInterval
+
+Yifan: GetDate
+
+Brian: WriteOutput
+
+Miloni: GetEvent
+
+Main at End: [Open]
