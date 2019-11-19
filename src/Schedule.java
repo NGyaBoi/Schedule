@@ -1,12 +1,12 @@
-import javax.swing.JOptionPane;
-
 /* Filename:		Schedule.java
- * Author:			Yifan Feng, Neel Ghosh,  Seungyup Lee, Miloni Shah
- * Section:			IST 140.001
- * Assignment:		Final Project
- * Date: 			Dec 12th 2019
+ * Author:  		Yifan Feng, Neel Ghosh, Seungyup Lee, Miloni Shah
+ * Section: 		IST 140.001
+ * Assignment: 		Final Project
+ * Date:    		Dec 12th 2019
  * Description:		(empty)
  */
+
+import javax.swing.JOptionPane;
 
 public class Schedule 
 {
