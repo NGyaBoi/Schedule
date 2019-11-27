@@ -6,12 +6,15 @@
  * Description:		(empty)
  */
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import java.io.PrintWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class Schedule 
 {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) throws FileNotFoundException
 	{
 		
 	}
@@ -23,5 +26,12 @@ public class Schedule
 		strName = JOptionPane.showInputDialog("Enter in your name:");
 		
 		return strName;
+	}
+	
+	public static String GetTimeInterval()
+	{
+		String strInterval = "";
+		
+		return strInterval;
 	}
 }
