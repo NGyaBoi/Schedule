@@ -13,13 +13,14 @@ import java.io.FileNotFoundException;
 
 public class Schedule 
 {
-
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		String strName = "";
+		String strDate = "";
+		
 		
 		strName = GetName();
-		
+//		strDate = GetDate();
 		
 	}
 	
@@ -35,6 +36,13 @@ public class Schedule
 	public static String GetTimeInterval()
 	{
 		String strInterval = "";
+		String strStartTime = "";
+		String strEndTime = "";
+		
+		strStartTime = JOptionPane.showInputDialog("Enter in the starting time:");
+		strEndTime = JOptionPane.showInputDialog("Enter in the ending time:");
+		
+		strInterval = strStartTime + " to " + strEndTime;
 		
 		return strInterval;
 	}
