@@ -47,4 +47,11 @@ public class Schedule
 		
 		return strInterval;
 	}
+	
+	public static void DisplaySchedule(String strName)
+	{
+		JOptionPane.showMessageDialog(null,"Your Name: " + strName);
+		// Going to change this so that it will write an output as a file
+		// Need more variables to print(Everybody do your jobs... The only contributors are me and Neel)
+	}
 }
